@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 0eb734d18c959c244b0fd92dc43d72f9, type: 2}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &842933451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842933454}
+  - component: {fileID: 842933453}
+  - component: {fileID: 842933452}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &842933452
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842933451}
+  m_Enabled: 1
+--- !u!20 &842933453
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842933451}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.5029192, g: 0.8091493, b: 0.9622642, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 55
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 32
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &842933454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842933451}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051843699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051843701}
+  - component: {fileID: 1051843700}
+  m_Layer: 0
+  m_Name: Language
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1051843700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051843699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ffcbc67f1f8de343a621c1fb24eaf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameLang: 0
+  _languageFile: {fileID: 4900000, guid: f844d4f529263f346a41721cb72f785e, type: 3}
+  _useCustomFonts: 0
+  _langFonts: []
+--- !u!4 &1051843701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051843699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1723665238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723665239}
+  - component: {fileID: 1723665241}
+  - component: {fileID: 1723665240}
+  m_Layer: 0
+  m_Name: Init
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723665239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723665238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1723665240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723665238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 807838363, guid: 21cdcaaccfb956443be2d5c2c01887a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestUser: tester
+  TestPassword: Aa123123!@#456
+  BundleId: com.taggle.telest
+  MiniAppLoadType: 0
+  ProgrammeId: 0
+  MiniAppLoadData: '{"id":8,"game":{"id":14,"name":"Traveling","app_id":"com.taggle.travelingmini","cover":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=tU6OKhsgzf%2FFOZ1s4TkEASdCWak%3D&Expires=1657859785","cover_thumb":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png.100x100_q85.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=g5Bs%2BAR6zC0K%2FhRPZrYL6AAtMT4%3D&Expires=1657859785","cover_square":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png.300x300_q85_crop-smart.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=SYF%2B0zpZgC9FDMJtVsHcvxV%2FlTo%3D&Expires=1657859785","is_mini_app":true},"room":82,"patient":18,"preloaded_assets":[],"setting":{"layout":"vertical","chart_config":{"pitch":{"max":500,"min":0,"rangeMax":80,"rangeMin":50},"volume":{"max":120,"min":0,"rangeMax":80,"rangeMin":50}},"analytics_type":"speech"},"game_config":{"max_duration":{"target":{"mpt":5,"pitch":105,"volume":60},"trials":3,"adjustment":2}}}'
+  TempSettingsData:
+  - '{"id":8,"game":{"id":14,"name":"Traveling","app_id":"com.taggle.travelingmini","cover":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=tU6OKhsgzf%2FFOZ1s4TkEASdCWak%3D&Expires=1657859785","cover_thumb":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png.100x100_q85.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=g5Bs%2BAR6zC0K%2FhRPZrYL6AAtMT4%3D&Expires=1657859785","cover_square":"https://app.tagglehealth.com/s3/media/game-covers/6ac4275a-972a-4e2c-9885-df30a4c221b6.png.300x300_q85_crop-smart.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=SYF%2B0zpZgC9FDMJtVsHcvxV%2FlTo%3D&Expires=1657859785","is_mini_app":true},"room":82,"patient":18,"preloaded_assets":[],"setting":{"layout":"vertical","chart_config":{"pitch":{"max":500,"min":0,"rangeMax":80,"rangeMin":50},"volume":{"max":120,"min":0,"rangeMax":80,"rangeMin":50}},"analytics_type":"speech"},"game_config":{"max_duration":{"target":{"mpt":5,"pitch":105,"volume":60},"trials":3,"adjustment":2}}}'
+  - '{"id":9,"game":{"id":15,"name":"Running Race","app_id":"com.taggle.runningracemini","cover":"https://app.tagglehealth.com/s3/media/game-covers/2118f756-a520-4d6e-8296-47904b6aee8a.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=2BkRYG6nY2H7J9kWzbMUUhZ%2BswQ%3D&Expires=1657859785","cover_thumb":"https://app.tagglehealth.com/s3/media/game-covers/2118f756-a520-4d6e-8296-47904b6aee8a.png.100x100_q85.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=WUO0HTRG3891X4ic6gVd3xYqeUk%3D&Expires=1657859785","cover_square":"https://app.tagglehealth.com/s3/media/game-covers/2118f756-a520-4d6e-8296-47904b6aee8a.png.300x300_q85_crop-smart.png?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=gN7pEknqOxuRIkQX5rTYULheOKc%3D&Expires=1657859785","is_mini_app":true},"room":82,"patient":18,"preloaded_assets":[{"id":5,"room":82,"type":"paragraph","asset":{"id":13,"asset_title":"","asset_type":"text","asset_external_id":null,"asset_url":null,"asset_img":null,"asset_thumb":null,"asset_file":null,"asset_desc":""}},{"id":6,"room":82,"type":"noise","asset":{"id":14,"asset_title":"","asset_type":"audio","asset_external_id":null,"asset_url":"https://app.tagglehealth.com/s3/media/learning/assets/audio/1626181155Nc3tr.mp3?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=Vv9YSJpeqh1dpvHd%2F5GGKHy1xfo%3D&Expires=1657859785","asset_img":null,"asset_thumb":null,"asset_file":"https://app.tagglehealth.com/s3/media/learning/assets/audio/1626181155Nc3tr.mp3?AWSAccessKeyId=AKIAQN6ACZ7PJQ74C5AS&Signature=Vv9YSJpeqh1dpvHd%2F5GGKHy1xfo%3D&Expires=1657859785","asset_desc":""}}],"setting":{"layout":"vertical","chart_config":{"pitch":{"max":120,"min":0,"rangeMax":80,"rangeMin":50},"volume":{"max":120,"min":0,"rangeMax":80,"rangeMin":50}},"analytics_type":"speech"},"game_config":{"hierarchy_text":{"speed":1,"target":{"mpt":5,"pitch":105,"volume":100},"trials":3,"adjustment":5}}}'
+  - '{"id":6,"game":{"id":16,"name":"Pushing Pulling","app_id":"com.taggle.pullingpushingmini","cover":null,"cover_thumb":null,"cover_square":null,"is_mini_app":true},"room":82,"patient":18,"preloaded_assets":[],"setting":{"layout":"vertical","chart_config":{"pitch":{"max":500,"min":0,"rangeMax":80,"rangeMin":50},"volume":{"max":120,"min":0,"rangeMax":80,"rangeMin":50}},"analytics_type":"speech"},"game_config":{"high_to_low":{"target":{"pitch":120,"volume":75},"trials":3,"model_f0":{"pitch":140},"adjustment":10},"low_to_high":{"target":{"pitch":160,"volume":75},"trials":3,"model_f0":{"pitch":140},"adjustment":10}}}'
+  - '{"id":30,"game":{"id":32,"name":"TeleST","app_id":"com.taggle.telest","cover":null,"cover_thumb":null,"cover_square":null,"is_mini_app":true},"room":325,"patient":18,"preloaded_assets":[],"setting":{"layout":"horizontal","chart_config":{"pitch":{"max":120,"min":0,"rangeMax":80,"rangeMin":50},"volume":{"max":120,"min":0,"rangeMax":80,"rangeMin":50}},"analytics_type":"tele_st"},"game_config":{"config":{"naming_nouns":{"difficulty_naming_nouns":"Everyday
+    Nouns"},"naming_category":{"difficulty_naming_category":"2 Items per picture"},"naming_describe":{"difficulty_describe":"3
+    descriptions per item"}}}}'
+--- !u!114 &1723665241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723665238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4beb58db582ba3e4d9b7da473a12ba2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1775512544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1775512546}
+  - component: {fileID: 1775512545}
+  m_Layer: 0
+  m_Name: APIWorker1657856183
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1775512545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775512544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1941976410, guid: 21cdcaaccfb956443be2d5c2c01887a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1775512546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775512544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
